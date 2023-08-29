@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my project</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./assets/materialize/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./assets/Css/util.css">
     <link rel="stylesheet" href="./assets/Css/style.css">
 </head>
 <body>
-   
-
+  <!-- //navbar top of site -->
     <nav class="white shadow">
         <div class="nav-wrapper blue darken-3 shadow">
           <a href="#!" class="hide-on-med-and-up">Home</a>
@@ -25,7 +24,8 @@
         </div>
       </nav>
 
-    
+    <!-- sidebar left of your site in phone -->
+
       <ul class="sidenav" id="mobile-demo">
         <li><div class="user-view">
           <div class="background">
@@ -42,18 +42,30 @@
         <li><a class="waves-effect" href="#!">Home</a></li>
         <li><a class="waves-effect" href="#!">Users</a></li>
       </ul>
+          <!-- section part -->
+      <section id="top_actions_section">
+          <!-- button add -->
 
 
-      <section class="flex-c-m flex-col sizefull  p-r-10 p-l-10 p-t-100">
-        <img src="./assets/images/codeyad.png" class="w-full max-w-200 filter">
-        <a  href="https://codeyad.com"
-        class="waves-effect waves-dark btn blue darken-3 w-full max-w-250 m-t-10 m-b-3 rounded-pill">programming language</a>
-        <a href="./U2.html" 
-        class="waves-effect waves-dark btn blue darken-3 w-full max-w-250 m-t-10 m-b-3 rounded-pill">Users page</a>
+        <div class="p-r-10 p-l-10">
+          <button class="waves-effect waves-light btn blue darken-3 p-l-30 p-r-30 w-full rounded-pill flex-c m-t-5">
+            <i class="material-icons m-r-5">add</i>
+            add user 
+          </button>
+        </div>
+
+          <!-- search input -->
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="search" type="text" class="validate">
+            <label for="search">
+              <i class="material-icons pos-relative top-7">search</i>
+            search
+          </label>
+          </div>
       </section>
     
-
-    <script src="./assets/materialize/js/materialize.min.js"></script>
-    <script src="./assets/Js/main.js"></script>
+      <script src="./assets/materialize/js/materialize.min.js"></script>
+      <script src="./assets/Js/main.js"></script>
 </body>
 </html>
