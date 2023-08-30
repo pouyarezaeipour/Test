@@ -43,19 +43,19 @@
         <li><a class="waves-effect" href="#!">Users</a></li>
       </ul>
           <!-- section part -->
-      <section id="top_actions_section">
+      <section id="top_actions_section" class="row center">
           <!-- button add -->
 
 
-        <div class="p-r-10 p-l-10">
-          <button class="waves-effect waves-light btn blue darken-3 p-l-30 p-r-30 w-full rounded-pill flex-c m-t-5">
+        <div class="p-r-10 p-l-10 col s12 m4 l3">
+          <button class="waves-effect waves-light btn blue darken-3 p-l-30 p-r-30 w-full rounded-pill flex-c m-t-5 ">
             <i class="material-icons m-r-5">add</i>
             add user 
           </button>
         </div>
 
           <!-- search input -->
-        <div class="row">
+        <div class="row col s12 m8 l7">
           <div class="input-field col s12">
             <input id="search" type="text" class="validate">
             <label for="search">
@@ -63,9 +63,63 @@
             search
           </label>
           </div>
+
+          <div class="row col l2"></div>
+      </section>
+
+      <section id="second-action-section">
+        <ul class="collapsible">
+            <li class="user-list-item background">
+                <div class="collapsible-header background2"><i class="material-icons turn blue-text ">arrow_downward</i> pouya </div>
+                <div class="collapsible-body">
+                  <div class="p-all-5">
+                      <span class="f-bold">username :</span>
+                      <span> pouya</span>
+                  </div>
+                  <div class="p-all-5">
+                    <span class="f-bold">email :</span>
+                    <span> pouya@gmail.com</span>
+                </div>
+                <div class="p-all-5">
+                  <span class="f-bold">adress : </span>
+                  <span>IRAN tehran ...</span>
+              </div>
+              <div class="p-all-5">
+                <span class="f-bold">action :</span>
+                <i class="material-icons orange-text">accessibility</i> 
+                <i class="material-icons red-text">build</i>
+            </div>
+                </div>
+            </div>
+          </li>
+          <li class="user-list-item background">
+            <div class="collapsible-header background2"><i class="material-icons turn blue-text ">arrow_downward</i> ali  </div>
+            <div class="collapsible-body">
+              <div class="p-all-5">
+                  <span class="f-bold">username :</span>
+                  <span> ali</span>
+              </div>
+              <div class="p-all-5">
+                <span class="f-bold">email :</span>
+                <span> ali@gmail.com</span>
+            </div>
+            <div class="p-all-5">
+              <span class="f-bold">adress : </span>
+              <span>IRAN tehran ...</span>
+          </div>
+          <div class="p-all-5">
+            <span class="f-bold">action :</span>
+            <i class="material-icons orange-text">accessibility</i> 
+            <i class="material-icons red-text">build</i>
+        </div>
+            </div>
+        </div>
+      </li>
+        </ul>
       </section>
     
       <script src="./assets/materialize/js/materialize.min.js"></script>
       <script src="./assets/Js/main.js"></script>
+      <script src="./assets/Js/users.js"></script>
 </body>
 </html>

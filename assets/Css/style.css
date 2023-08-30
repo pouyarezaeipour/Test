@@ -13,5 +13,27 @@
     .shadow{
         box-shadow: 0 0 50px black;
     }
+    .center{
+        display: flex;
+        align-items: center;
+    }
 }
+
+.user-list-item .turn {
+    transition: all 0.4s ease;
+}
+
+.user-list-item.active .turn{
+    transform: rotate(180deg);
+}
+
+.background{
+    background-color: gray;
+}
+.user-list-item.active .background2{
+    background-color: rgba(203, 199, 199, 0.77)
+}
+
+
+
 
