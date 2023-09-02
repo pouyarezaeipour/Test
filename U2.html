@@ -43,7 +43,7 @@
         <li><a class="waves-effect" href="#!">Users</a></li>
       </ul>
           <!-- section part -->
-      <section id="top_actions_section" class="row center">
+      <section id="top_actions_section" class="row flex-c-m container">
           <!-- button add -->
 
 
@@ -68,7 +68,7 @@
       </section>
 
       <section id="second-action-section">
-        <ul class="collapsible">
+        <ul class="collapsible hide-on-med-and-up">
             <li class="user-list-item background">
                 <div class="collapsible-header background2"><i class="material-icons turn blue-text ">arrow_downward</i> pouya </div>
                 <div class="collapsible-body">
@@ -84,10 +84,10 @@
                   <span class="f-bold">adress : </span>
                   <span>IRAN tehran ...</span>
               </div>
-              <div class="p-all-5">
+              <div class="p-all-5 flex-l-m">
                 <span class="f-bold">action :</span>
-                <i class="material-icons orange-text">accessibility</i> 
-                <i class="material-icons red-text">build</i>
+               <i class="material-icons yellow-text p-l-5 p-r-5">edit</i>
+               <i class="material-icons orange-text p-l-5 p-r-5">delete</i>
             </div>
                 </div>
             </div>
@@ -107,16 +107,105 @@
               <span class="f-bold">adress : </span>
               <span>IRAN tehran ...</span>
           </div>
-          <div class="p-all-5">
+          <div class="p-all-5 flex-l-m">
             <span class="f-bold">action :</span>
-            <i class="material-icons orange-text">accessibility</i> 
-            <i class="material-icons red-text">build</i>
+            <i class="material-icons yellow-text p-l-5 p-r-5">edit</i>
+            <i class="material-icons orange-text p-l-5 p-r-5">delete</i>
         </div>
             </div>
         </div>
       </li>
         </ul>
       </section>
+
+      <section id="action-list-desktop" class="container">
+        <div class="hide-on-med-and-down show-on-medium-and-up">
+          <table class="striped centered highlight">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>UserName</th>
+                <th>Email</th>
+                <th>Adress</th>
+                <th>Actionn</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>pouya</td>
+                <td>pouya_.rp</td>
+                <td>pouya@gmail.com</td>
+                <td>Iran,Tahran</td>
+                <td>
+                  <span>action :</span>
+                  <i class="material-icons p-l-5 p-r-2 yellow-text">edit</i>
+                  <i class="material-icons p-l-5 p-r-2  orange-text">delete</i>
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>sina</td>
+                <td>sina.rp</td>
+                <td>sina@gmail.com</td>
+                <td>Iran,Tahran</td>
+                <td>
+                  <span>action :</span>
+                  <i class="material-icons p-l-5 p-r-2 yellow-text">edit</i>
+                  <i class="material-icons p-l-5 p-r-2  orange-text">delete</i>
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>mahran</td>
+                <td>mehran.rp</td>
+                <td>mehran@gmail.com</td>
+                <td>Iran,Tahran</td>
+                <td>
+                  <span>action :</span>
+                  <i class="material-icons p-l-5 p-r-2 yellow-text">edit</i>
+                  <i class="material-icons p-l-5 p-r-2  orange-text">delete</i>
+                </td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>pariya</td>
+                <td>pariya.rp</td>
+                <td>pariya@gmail.com</td>
+                <td>Iran,Tahran</td>
+                <td>
+                  <span>action :</span>
+                  <i class="material-icons p-l-5 p-r-2 yellow-text">edit</i>
+                  <i class="material-icons p-l-5 p-r-2  orange-text">delete</i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pagination_container container p-l-9 p-r-9 p-t-15 p-b-10 flex-sb-m pos-fixed bottom-0 left-0 right-0 z-depth-4 rounded-pill-top">
+
+          <div class="pagination_item_counts flex-c-m p-l-10">
+            showing
+            <span class="m-l-5 m-r-5 max-w-50">
+              <input type="number" class="blue-text darken-2 no-border center-align m-b-0" value="10">
+            </span>
+            of 
+            <span class="blue-text darken-2 m-l-5 m-r-5">100</span>
+          </div>
+
+          <div class="pagination_buttons">
+            <i class="material-icons blue darken-2 m-l-5 m-r-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text 
+            rounded-pill">keyboard_arrow_left</i>
+            <i class="material-icons blue darken-2 m-l-5 m-r-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text
+             rounded-pill">keyboard_arrow_right</i>
+          </div>
+        </div>
+      </section>
+
+
+
+
     
       <script src="./assets/materialize/js/materialize.min.js"></script>
       <script src="./assets/Js/main.js"></script>
