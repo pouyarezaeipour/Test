@@ -71,6 +71,9 @@ table.highlight > tbody > tr:hover {
     box-shadow: 0 0 10px blue;
     transition: all ease 1s;
 }
+.bc-w{
+    background: rgb(255, 255, 255,1);
+}
 
 
 
